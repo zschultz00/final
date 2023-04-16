@@ -1,8 +1,25 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nform from "./Nform";
-import { Container, Row, Col, Nav, Navbar, Card, Image} from 'react-bootstrap';
+import { Container, Row, Col, Nav, Navbar, Card, CardGroup} from 'react-bootstrap';
 import React, { useState, useEffect } from 'react';
 
+
+//Chatgpt
+
+function RandomFox() {
+  const [link, setLink] = useState("");
+
+  useEffect(() => {
+    fetch("https://randomfox.ca/floof/")
+      .then(response => response.json())
+      .then(data => setLink(data.image));
+  }, []);
+
+  return link;
+}
+
+
+//end chatgpt
 
 //ChatGPT generated this section. prompt:write a react function to return an image of a cat using this url which is an api endpoint https://cataas.com/cat?width=300
 function CatImage() {
@@ -46,7 +63,7 @@ function DogImage() {
 function RandomPetImage() {
   const isDog = Math.random() < 0.5;
 
-  return isDog ? DogImage() : CatImage();
+  return isDog ? DogImage() : RandomFox();
 }
 
 //end written by zach
@@ -303,56 +320,32 @@ function App() {
           </Navbar>
         </Col>
       </Row>
-      <div data-masonry='{"percentPosition": true }'class="row mt-5 pt-3 ">
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+      <Row>
+        <CardGroup className="mt-5 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+        </CardGroup>
+        <CardGroup className="mt-5 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+        </CardGroup>
+        <CardGroup className="mt-5 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+        </CardGroup>
+        <CardGroup className="mt-5 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </div>
-      </div>
+        </CardGroup>
+      </Row>
       <Row>
       <Col>
           <Card className="m-2">
