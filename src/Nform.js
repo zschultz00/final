@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Nform() {
   return (
-    <form name="contact" method="post">
+    <form id="contact" name="contact" method="post">
       <div class="form-group">
         <input type="hidden" name="form-name" value="contact" />
         <div class="form-group">
