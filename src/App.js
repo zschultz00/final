@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Form from "./Form";
-import { Container, Row, Col, Nav, Navbar, Card, } from 'react-bootstrap';
+import Nform from "./Nform";
+import { Container, Row, Col, Nav, Navbar, Card, Form, Button} from 'react-bootstrap';
 
 function App() {
   return (
@@ -67,7 +67,7 @@ function App() {
           <Card className="m-2">
             <Card.Body>
               <Card.Title>Contact</Card.Title>
-                <Form />
+                <Nform />
             </Card.Body>
           </Card>
         </Col>
