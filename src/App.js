@@ -303,32 +303,56 @@ function App() {
           </Navbar>
         </Col>
       </Row>
-      <Row className="mt-5 pt-3 ">
-        <Col className="p-3" sm={12} md={6} lg={6} xl={3}>
+      <div data-masonry='{"percentPosition": true }'class="row mt-5 pt-3 ">
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </Col>
-        <Col className="p-3" sm={12} md={6} lg={6} xl={3}>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </Col>
-        <Col className="p-3" sm={12} md={6} lg={6} xl={3}>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </Col>
-        <Col className="p-3" sm={12} md={6} lg={6} xl={3}>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </Col>
-        <Col className="p-3" sm={12} md={6} lg={6} xl={3}>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </Col>
-        <Col className="p-3" sm={12} md={6} lg={6} xl={3}>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </Col>
-        <Col className="p-3" sm={12} md={6} lg={6} xl={3}>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </Col>
-        <Col className="p-3" sm={12} md={6} lg={6} xl={3}>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <CardPet/>
-        </Col>
-      </Row>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+          <CardPet/>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+          <CardPet/>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+          <CardPet/>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+          <CardPet/>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+          <CardPet/>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+          <CardPet/>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+          <CardPet/>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+          <CardPet/>
+        </div>
+      </div>
       <Row>
       <Col>
           <Card className="m-2">
