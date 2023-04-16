@@ -1,5 +1,5 @@
 import React from "react";
-
+//Netlify form
 export default function Nform() {
   return (
     <form id="contact" name="contact" method="post">
