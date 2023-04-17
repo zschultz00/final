@@ -21,6 +21,7 @@ function RandomFox() {
 
 //end chatgpt
 
+//Cataas broke something on their end so this doesn't work anymore. I swapped it out for fox
 //ChatGPT generated this section. prompt:write a react function to return an image of a cat using this url which is an api endpoint https://cataas.com/cat?width=300
 function CatImage() {
   const [catUrl, setCatUrl] = useState('');
