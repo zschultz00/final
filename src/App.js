@@ -361,7 +361,7 @@ function App() {
         <Col>
         <Card className="m-2">
             <Card.Body>
-            <p>Want to adopt one of the animals you see? Submit a request using the form below. Please include your </p>
+            <p>Want to adopt one of the animals you see? Submit a request using the form below. Please include the name of the animal you wish to adopt. We will reach out to you as soon as possible 🐶</p>
             </Card.Body>
           </Card>
         </Col>
