@@ -287,7 +287,7 @@ function PetName() {
 
 function CardPet() {
 
-  const petUrl = RandomPetImage();
+const petUrl = RandomPetImage();
 
   return (
     <Card style={{ width: '18rem' }}>
@@ -321,6 +321,16 @@ function App() {
           </Navbar>
         </Col>
       </Row>
+      <Row className="mt-5">
+        <Col className="p-3">
+        <Card className="m-2">
+            <Card.Title className="p-3"><h1>Paw Palace Pet Adoption Agency</h1></Card.Title>
+            <Card.Body>
+            <p>We are a pet adoption agency specializing in finding great home for our animals. We make sure each of our animals are friendly and kind. We want to make sure that each animal is matched with someone or a family that is a perfect fit for the animal. To adopt one of our animals please reach us via the contact form below.</p>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
       <Row>
         <CardGroup className="mt-5 p-3">
           <CardPet/>
@@ -346,6 +356,15 @@ function App() {
           <CardPet/>
           <CardPet/>
         </CardGroup>
+      </Row>
+      <Row>
+        <Col>
+        <Card className="m-2">
+            <Card.Body>
+            <p>Want to adopt one of the animals you see? Submit a request using the form below. Please include your </p>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
       <Row>
       <Col>
