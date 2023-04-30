@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 import Nform from "./Nform";
 import { Container, Row, Col, Nav, Navbar, Card, CardGroup} from 'react-bootstrap';
 import React, { useState, useEffect } from 'react';

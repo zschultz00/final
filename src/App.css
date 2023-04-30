@@ -40,3 +40,11 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #B0D7FF;
+}
+
+.sh {
+  box-shadow: 10px 10px 5px #D8D5DB;
+}
